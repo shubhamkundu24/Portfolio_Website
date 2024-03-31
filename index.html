@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham &bull; Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- VS Code me limited fonts hai, we have to use google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <header id="home">
+        <nav>
+            <div class="left">
+                <!-- <img src="IMG_20230724_191259_915.jpg"> -->
+                <div>
+                    <h1 id="heading1">SHUBHAM</h1>
+                </div>
+            </div>
+            <div class="right">
+
+                <a href="#home">
+                    <div>Home</div>
+                </a>
+                <a href="#about">
+                    <div>About</div>
+                </a>
+                <a href="#skills">
+                    <div>Skills</div>
+                </a>
+                <a href="#projects">
+                    <div>Projects</div>
+                </a>
+                <!-- <a href="#experience">
+                    <div>Work Experience</div>
+                </a> -->
+                <a href="#contact">
+                    <div>Contact Me</div>
+                </a>
+
+            </div>
+
+
+        </nav>
+    </header>
+
+
+
+    <main>
+        <section id="s1">
+            <div id="d1">
+                <p id="p1">Hi, My name is Shubham and</p>
+                <p id="p2">I am a <span id="element"></span></p>
+            </div>
+            <div id="d2">
+                <img src="web-developer.svg" alt="Loading..." id="img1">
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Problem Solver.', 'Ex-NCC Cadet.', 'FrontEnd Developer.', 'Freelancer.'],
+            typeSpeed: 50,
+            loop:true
+        });
+    </script><!-- Ye CDN hai -->
+
+    <hr>
+
+    <section id="about">
+        <h1 id="heading2">About Me</h1>
+        <div id="abtMain">
+            <div id="divimg2">
+                <img src="IMG_20230724_191259_915.jpg" alt="Loading..." id="img2">
+                <!-- <a href="resume.pdf"><div id="resume">My Resume</div></a> -->
+            </div>
+            
+            <!-- Leetcode & GFG Badges, Streaks -->
+            <div id="aboutdiv">
+                <!-- <div class="aboutBlocks" id="ab1">&#8594; MCA student @ NIT Warangal<br><br>&#8594; Passionate Web Developer<br><br>&#8594; 200+ Questions on Leetcode<br><br>&#8594; 200+ Questions on GFG<br><br>&#8594; 5 &#11088; coder @ HackerRank</div> -->
+
+                <div class="aboutBlocks" id="ab1">&#8594; MCA student @ NIT Warangal<br><br>&#8594; Passionate Web Developer<br><br>&#8594; 3 &#11088; coder @ HackerRank</div>
+
+                <div class="aboutBlocks" id="ab2">&#8594; Graduated from Deshbandhu college, University of Delhi<br><br>&#8594; XII from MDVM School, Neemrana, Alwar, Rajasthan<br><br>&#8594; X from Jawahar Navodaya Vidyalaya (JNV) Khairthal, Alwar</div>
+
+                <div class="aboutBlocks" id="ab3">&#8594; NIMCET AIR 244<br><br>&#8594; CSUO Air Wing NCC (President)<br><br>&#8594; ADG Commendation (NCC)<br><br>&#8594; NCC&nbsp; 'C' &nbsp;Certificate Holder<br><br>&#8594; Attended All India Vayu Sainik Camp &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(AIVSC), Jodhpur</div>
+
+                <div class="aboutBlocks" id="ab4">&#8594; Best Cadet Competitor & Dy. Parade Commander, AIVSC Camp<br><br>&#8594; Qualified National Defence Academy (NDA) Exam 4 times<br><br>&#8594; Attended 5 SSB interviews<br><br>&#8594; 3rd Position IntraMural  Volleyball Tournament, NIT-W</div>
+            </div>
+            
+        </div>
+
+
+    </section>
+    <hr>
+
+    <section id="skills">
+        <h1 id="heading3">Skills</h1><br><br>
+
+        <div id="divSkills">
+            <div id="skill1" class="classSkills1">C++</div>
+            <div id="skill2" class="classSkills1">Java</div>
+            <div id="skill3" class="classSkills1">HTML</div>
+            </div>
+
+        <div id="divSkills2">
+            <div id="skill4" class="classSkills2">CSS</div>
+            
+            <div id="divSkillsImages">
+                <img src="HTML_Logo.png" alt="Loading..." id="skillImg1" class="SkillsImg">
+                <img src="CSS_Logo.png" alt="Loading..." id="skillImg2" class="SkillsImg">
+                <img src="Javascript_Logo.png" alt="Loading..." id="skillImg3" class="SkillsImg">
+                <img src="C++_Logo-removebg-preview.png" alt="Loading..." id="skillImg4" class="SkillsImg">
+                <img src="DBMS_Logo-removebg-preview.png" alt="Loading..." id="skillImg5" class="SkillsImg">
+                <img src="Java_Logo_New.png" alt="Loading..." id="skillImg6" class="SkillsImg">
+                <img src="vsCode_logo-removebg-preview.png" alt="Loading..." id="skillImg7" class="SkillsImg">
+                <img src="github_logo2-removebg-preview.png" alt="Loading..." id="skillImg8" class="SkillsImg">
+            </div>
+            <div id="skill5" class="classSkills2">JavaScript</div>
+            
+        </div>
+        <div id="divSkills3">
+            <div id="skill7" class="classSkills3">Front-End Web Development</div>
+            <div id="skill8" class="classSkills3">Data Structure & Algorithms</div>
+            <div id="skill9" class="classSkills3">Good Communication Skills</div>
+        </div>
+        
+    </section>
+    <hr>
+
+    <section id="projects">
+        <h1 id="heading4">Projects</h1>
+        <a href="https://github.com/shubhamkundu24"><img src="github_logo2-removebg-preview.png" alt="Loading..." id="project1_github1" class="proj_git"></a>
+            <fieldset id="f1">
+                <legend id="l1">NIT-W Centralised Clubs & Societies</legend>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, animi veritatis! Quis, eligendi dolorem eius ipsam molestiae cum. Illo quisquam, alias eligendi doloribus placeat, tempore vitae ut delectus laborum ab exercitationem vel necessitatibus minima porro quia harum nulla? In officiis dolorum, illum commodi hic excepturi molestias consequatur! Sit, quisquam modi Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, facere debitis nulla pariatur neque doloribus nam asperiores optio modi quod! Culpa consectetur magnam ex nesciunt id, architecto officia iusto placeat beatae laborum ipsum ad explicabo iste tempore voluptate a modi atque fuga pariatur. Quo tempore repellendus iure qui. Eveniet, tempora?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, rerum autem. Quis aspernatur totam expedita illum pariatur dolorem, minus cupiditate ea nam repellat? Iure, nisi minima rem repellat neque perspiciatis voluptatem quis voluptate ipsam animi dignissimos sequi optio corrupti ad, quas eaque aliquid deleniti velit eius unde? Dolores reprehenderit omnis perferendis tenetur necessitatibus culpa voluptatum, temporibus deserunt quia atque aliquam beatae doloremque voluptatem ullam explicabo iusto pariatur quibusdam vero quasi similique sint expedita neque placeat! Quasi ducimus dolore sequi voluptas minima dignissimos praesentium, cupiditate illum quis consequuntur delectus? Ab eveniet vitae alias natus incidunt laboriosam doloribus minus error dignissimos? Blanditiis!
+            </fieldset>
+            <a href="https://github.com/shubhamkundu24"><img src="github_logo2-removebg-preview.png" alt="Loading..." id="project1_github2" class="proj_git"></a>
+
+            <fieldset id="f2">
+                <legend id="l2">Personal Portfolio Website</legend>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, animi veritatis! Quis, eligendi dolorem eius ipsam molestiae cum. Illo quisquam, alias eligendi doloribus placeat, tempore vitae ut delectus laborum ab exercitationem vel necessitatibus minima porro quia harum nulla? In officiis dolorum, illum commodi hic excepturi molestias consequatur! Sit, quisquam modi Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, facere debitis nulla pariatur neque doloribus nam asperiores optio modi quod! Culpa consectetur magnam ex nesciunt id, architecto officia iusto placeat beatae laborum ipsum ad explicabo iste tempore voluptate a modi atque fuga pariatur. Quo tempore repellendus iure qui. Eveniet, tempora?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, rerum autem. Quis aspernatur totam expedita illum pariatur dolorem, minus cupiditate ea nam repellat? Iure, nisi minima rem repellat neque perspiciatis voluptatem quis voluptate ipsam animi dignissimos sequi optio corrupti ad, quas eaque aliquid deleniti velit eius unde? Dolores reprehenderit omnis perferendis tenetur necessitatibus culpa voluptatum, temporibus deserunt quia atque aliquam beatae doloremque voluptatem ullam explicabo iusto pariatur quibusdam vero quasi similique sint expedita neque placeat! Quasi ducimus dolore sequi voluptas minima dignissimos praesentium, cupiditate illum quis consequuntur delectus? Ab eveniet vitae alias natus incidunt laboriosam doloribus minus error dignissimos? Blanditiis!
+            </fieldset>
+            <a href="https://github.com/shubhamkundu24"><img src="github_logo2-removebg-preview.png" alt="Loading..." id="project1_github3" class="proj_git"></a>
+            <fieldset id="f3">
+                <legend id="l3">Amazon Clone : An E-Commerce Website</legend>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, animi veritatis! Quis, eligendi dolorem eius ipsam molestiae cum. Illo quisquam, alias eligendi doloribus placeat, tempore vitae ut delectus laborum ab exercitationem vel necessitatibus minima porro quia harum nulla? In officiis dolorum, illum commodi hic excepturi molestias consequatur! Sit, quisquam modi Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, facere debitis nulla pariatur neque doloribus nam asperiores optio modi quod! Culpa consectetur magnam ex nesciunt id, architecto officia iusto placeat beatae laborum ipsum ad explicabo iste tempore voluptate a modi atque fuga pariatur. Quo tempore repellendus iure qui. Eveniet, tempora?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, rerum autem. Quis aspernatur totam expedita illum pariatur dolorem, minus cupiditate ea nam repellat? Iure, nisi minima rem repellat neque perspiciatis voluptatem quis voluptate ipsam animi dignissimos sequi optio corrupti ad, quas eaque aliquid deleniti velit eius unde? Dolores reprehenderit omnis perferendis tenetur necessitatibus culpa voluptatum, temporibus deserunt quia atque aliquam beatae doloremque voluptatem ullam explicabo iusto pariatur quibusdam vero quasi similique sint expedita neque placeat! Quasi ducimus dolore sequi voluptas minima dignissimos praesentium, cupiditate illum quis consequuntur delectus? Ab eveniet vitae alias natus incidunt laboriosam doloribus minus error dignissimos? Blanditiis!
+            </fieldset>
+            <a href="https://github.com/shubhamkundu24"><img src="github_logo2-removebg-preview.png" alt="Loading..." id="project1_github4" class="proj_git"></a>
+            <fieldset id="f4">
+                <legend id="l4">Web Dev Project 4</legend>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, animi veritatis! Quis, eligendi dolorem eius ipsam molestiae cum. Illo quisquam, alias eligendi doloribus placeat, tempore vitae ut delectus laborum ab exercitationem vel necessitatibus minima porro quia harum nulla? In officiis dolorum, illum commodi hic excepturi molestias consequatur! Sit, quisquam modi Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, facere debitis nulla pariatur neque doloribus nam asperiores optio modi quod! Culpa consectetur magnam ex nesciunt id, architecto officia iusto placeat beatae laborum ipsum ad explicabo iste tempore voluptate a modi atque fuga pariatur. Quo tempore repellendus iure qui. Eveniet, tempora?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, rerum autem. Quis aspernatur totam expedita illum pariatur dolorem, minus cupiditate ea nam repellat? Iure, nisi minima rem repellat neque perspiciatis voluptatem quis voluptate ipsam animi dignissimos sequi optio corrupti ad, quas eaque aliquid deleniti velit eius unde? Dolores reprehenderit omnis perferendis tenetur necessitatibus culpa voluptatum, temporibus deserunt quia atque aliquam beatae doloremque voluptatem ullam explicabo iusto pariatur quibusdam vero quasi similique sint expedita neque placeat! Quasi ducimus dolore sequi voluptas minima dignissimos praesentium, cupiditate illum quis consequuntur delectus? Ab eveniet vitae alias natus incidunt laboriosam doloribus minus error dignissimos? Blanditiis!
+            </fieldset>
+            <a href="https://github.com/shubhamkundu24"><img src="github_logo2-removebg-preview.png" alt="Loading..." id="project1_github5" class="proj_git"></a>
+            <fieldset id="f5">
+                <legend id="l5">Web Dev Project 5</legend>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, animi veritatis! Quis, eligendi dolorem eius ipsam molestiae cum. Illo quisquam, alias eligendi doloribus placeat, tempore vitae ut delectus laborum ab exercitationem vel necessitatibus minima porro quia harum nulla? In officiis dolorum, illum commodi hic excepturi molestias consequatur! Sit, quisquam modi Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, facere debitis nulla pariatur neque doloribus nam asperiores optio modi quod! Culpa consectetur magnam ex nesciunt id, architecto officia iusto placeat beatae laborum ipsum ad explicabo iste tempore voluptate a modi atque fuga pariatur. Quo tempore repellendus iure qui. Eveniet, tempora?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, rerum autem. Quis aspernatur totam expedita illum pariatur dolorem, minus cupiditate ea nam repellat? Iure, nisi minima rem repellat neque perspiciatis voluptatem quis voluptate ipsam animi dignissimos sequi optio corrupti ad, quas eaque aliquid deleniti velit eius unde? Dolores reprehenderit omnis perferendis tenetur necessitatibus culpa voluptatum, temporibus deserunt quia atque aliquam beatae doloremque voluptatem ullam explicabo iusto pariatur quibusdam vero quasi similique sint expedita neque placeat! Quasi ducimus dolore sequi voluptas minima dignissimos praesentium, cupiditate illum quis consequuntur delectus? Ab eveniet vitae alias natus incidunt laboriosam doloribus minus error dignissimos? Blanditiis!
+            </fieldset>
+
+    </section>
+
+    <!-- <section id="experience">
+        <h1 id="heading5">Experience</h1>
+        <div id="divExp">
+            &rarr; djfbjdbfjd<br>
+            &rarr; zjsnskcbnsc<br>
+            &rarr; asjdbskdb
+        </div>
+    </section> -->
+    <hr>
+
+    <section id="contact">
+
+        <form id="f1">
+            <div id="divForm">
+                
+                    <input type="text" height="30px" font-size="20px" placeholder=" Enter Full Name" required><br>
+                    <input type="email" placeholder=" Enter a valid Email Id" required><br>
+                    <input type="tel" required maxlength="10" placeholder=" Mobile Number"><br><br>
+                    <textarea rows="7" cols="23" placeholder=" Enter your Message" required></textarea><br>
+                    <button onclick="submitAlert()">Submit</button> 
+                    <script>
+                        function submitAlert(){
+                            alert('Details submitted successfully !!');
+                        }
+                    </script>
+            </div>
+        </form>
+
+        <h1 id="heading6">Contact Me</h1>
+
+        <h1 id="subheading">
+            
+            <!-- Questions, Thoughts or <br>Just want to say Hii... -->
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+            <script>
+                var typed = new Typed('#subheading', {
+                    strings: ['Questions, Thoughts, or Just want to say Hii . . .'],
+                    typeSpeed: 50,
+                    loop:true,
+                    showCursor:false
+                });
+            </script>
+        
+        </h1>
+        <p id="contactPara">
+            &#x1F4CC; National Institute of Technology<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Warangal, Telangana, 506004<br><br>
+            &#x1F4DE; 90xxxxxx86<br><br>
+            &#128231; shubhamkundu077@gmail.com<br><br>
+        </p>
+            
+        
+    </section>
+
+    <footer>
+        <div id="footerDiv">
+            <a href="https://www.leetcode.com"><img src="leetcode.png" class="footer_logo"></a>
+            <a href="https://www.geeksforgeeks.com"><img src="gfg-removebg-preview.png" class="footer_logo"></a>
+            <a href="https://github.com/shubhamkundu24"><img src="github_logo2-removebg-preview.png" id="footer_github"class="footer_logo"></a>
+            <a href="https://www.hackerrank.com/profile/9024343386s"><img src="hackerrank_logo.png" id="footer_twitter" class="footer_logo"></a>
+            <a href="https://www.linkedin.com/in/shubham-kundu-167475259/"><img src="linkedin_logo.png" class="footer_logo"></a>
+        </div>
+        
+    </footer>
+
+</body>
+
+</html>

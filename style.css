@@ -1,0 +1,544 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* p0, m0 use krke seedha margin and padding 0 set kr skte hai */
+    /* width:1200px; */
+
+}
+
+/* Initially margin and padding 0 krdo, general practise */
+
+
+body{
+    background-color: rgb(0, 0, 31);
+    color: white;
+    font-family:Libre Baskerville sans-serif; /*Added the new font family succesfully*/
+}
+
+
+#p1,#p2{
+    text-align:left;
+}
+
+#img{
+    float:left;
+    height:400px;
+    margin-bottom:20px;
+}
+
+
+.left{
+    margin-top:30px;
+    margin-bottom:10px;
+    font-size:60px;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+#heading1{
+    margin:0px;
+    /* margin-top:10px; */
+}
+
+.right{
+    /* color:red; */
+    display:flex;
+    width:97.4%;
+    height:40px;
+    align-items:center;
+    margin-top:55px;
+    justify-content:space-evenly;
+    padding-left:20px;
+    padding-right:20px;
+    font-size:30px;
+    background-color:rgb(154, 154, 210);
+}
+
+hr{
+    width:100%;
+}
+
+#element{
+    color:red;
+}
+
+p{
+    text-align:left;
+}
+
+#s1{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+a:hover{
+    color:red;
+    font-weight:550;
+    font-size:40px;
+    /* text-decoration:underline 2px red;
+    /* bottom:-6px; */
+    /* transition:1s; */
+} 
+
+
+#d1{
+    /* background-color:rgb(224, 66, 66); */
+    /* margin:100px; */
+    margin-top:40px;
+    margin-bottom:40px;
+    margin-left:50px;
+    margin-right:0px;
+    height:400px;
+    width:600px;
+    font-size:3rem;
+    border-radius:20%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    /* align-items:center; */
+    line-height:80px;
+}
+
+img{
+    height:480px;
+    margin-top:00px;
+}
+#d2{
+    /* background-color:red; */
+    margin:100px;
+    margin-top:0px;
+    margin-left:0px;
+    height:380px;
+    width:420px;
+    /* width:200px; */
+
+}
+
+
+#img2{
+    margin:10px;
+    height:500px;
+    /* margin-left:10px; */
+    margin-top:110px;
+    margin-right:20px;
+    /* border:3px solid white; */
+    border-radius:50%;
+    /* float:left; */
+}
+
+#resume{
+    height:60px;
+    width:200px;
+    background-color:#9A9AD2;
+    margin-top:20px;
+    margin-left:30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    /* font-weight:600; */
+    color:white;
+    border-radius:5%;
+}
+
+/* #resume a:hover{
+    height:70px;
+    width:220px;
+    font-size:38px;
+    font-weight:0;
+} */
+
+/* #resume:hover{
+    height:70px;
+    width:220px;
+    font-size:38px;
+} */
+
+#abtMain{
+    display:flex;
+}
+
+#about{
+    margin-top:50px;
+    
+}
+
+#heading2{
+    display:block;
+    height:85px;
+    margin-top:10px;
+    margin-left:10px;
+    margin-bottom:40px;
+    /* display:block; */
+    font-size:70px;
+    border-left:10px solid red;
+    /* border-top:6px solid red; */
+    /* text-decoration:underline 4px; */
+    padding-left:15px;
+    /* background-color:yellow; */
+}
+
+hr{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+#aboutMe{
+    font-size:2rem;
+    line-height:50px;
+    margin-left:20px;
+}
+
+#ul{
+    padding-left:20px;
+    /* background-color:green; */
+}
+
+#divSkills{
+    display:flex;
+    /* background-color:red; */
+    justify-content:center;
+    
+
+}
+
+.classSkills1{
+    background-color:rgb(66, 98, 66);
+    height:170px;
+    width:270px;
+    border:2px solid white;
+    border-radius:20%;
+    /* margin-left:150px;
+    margin-right:150px; */
+}
+
+
+#divSkills2{
+    margin-top:100px;
+    display:flex;
+    /* background-color:red; */
+    justify-content: space-evenly;
+    /* justify-content:center; */
+    /* align-items:center; */
+    
+}
+
+.classSkills2{
+    background-color:rgb(66, 98, 66);
+    height:170px;
+    width:270px;
+    border:2px solid white;
+    border-radius:20%;
+    /* justify-content:center;
+    align-items:center; */
+}
+
+#divSkills3{
+    margin-top:50px;
+    display:flex;
+    /* background-color:red; */
+    justify-content:center;
+    /* justify-content:center; */
+    /* align-items:center; */
+    
+}
+
+.classSkills3{
+    background-color:rgb(66, 98, 66);
+    height:170px;
+    width:270px;
+    border:2px solid white;
+    border-radius:20%;
+    /* margin-left:150px;
+    margin-right:150px; */
+    /* /* justify-content:center; */
+    align-items:center; */
+}
+
+#skill1,#skill2,#skill3,#skill4,#skill5,#skill6,#skill7,#skill8,#skill9{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:40px;
+    /* padding-left:10px; */
+    text-align:center;
+    
+}
+
+#skill1,#skill2,#skill3,#skill7,#skill8,#skill9{
+    margin-left:100px;
+}
+#heading3{
+    /* background-color:darkturquoise; */
+    height:85px;
+    font-size:70px;
+    border-left:10px solid red;
+    padding-left:15px;
+    margin-left:10px;
+    font-weight:600;
+}
+
+legend{
+    color:rgb(255, 247, 1);
+    font-size:40px;
+}
+
+fieldset{
+    margin:40px;
+    padding:20px;
+}
+
+#heading4{
+    /* background-color:darkturquoise; */
+    height:85px;
+    font-size:70px;
+    border-left:10px solid red;
+    padding-left:15px;
+    margin-left:10px;
+    font-weight:600;
+}
+
+#divExp{
+    border-left:6px solid white;
+}
+
+.classSkills1:hover{
+    /* background-color:rgb(244, 91, 91); */
+    height:180px;
+    width:280px;
+}
+.classSkills2:hover{
+    /* background-color:rgb(244, 91, 91); */
+    background-image:url("CSS_Logo.png");
+    background-repeat:no-repeat;
+    height:180px;
+    width:280px;
+}
+.classSkills3:hover{
+    /* background-color:rgb(244, 91, 91); */
+    height:180px;
+    width:280px;
+}
+
+.SkillsImg{
+    height:110px;
+}
+
+.SkillsImg:hover{
+    height:120px;
+}
+
+#divSkillsImages{
+    float:right;
+    display:flex;
+    /* height:1000px; */
+    width:500px;
+    justify-content: space-evenly;
+    /* margin-top:100px; */
+    flex-wrap:wrap;
+}
+
+.proj_git{
+    height:100px;
+    float:right;
+    margin-top:75px;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.proj_git:hover{
+    height:120px;
+}
+
+#project1_github1{
+    margin-top:115px;
+}
+
+.footer_logo{
+    height:100px;
+    border-radius: 20%;
+
+}
+.footer_logo:hover{
+    height:90px;
+}
+
+#footerDiv{
+    height:250px;
+    /* margin-bottom:0px; */
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+
+#heading6{
+    font-size:70px;
+    display:block;
+    height:85px;
+    margin-top:10px;
+    margin-left:10px;
+    margin-bottom:40px;
+    font-size:70px;
+    border-left:10px solid red;
+    padding-left:15px;
+}
+
+#subheading{
+    height:100px;
+    font-size:50px;
+    margin-left:40px;
+    margin-top:70px;
+    color:rgb(26, 221, 163);
+}
+
+#divForm{
+    float:right;
+    height:600px;
+    width:500px;
+    margin-bottom:20px;
+    /* background-color:rgb(92, 129, 24); */
+    border:5px solid rgb(33, 33, 107);
+    border-radius:20%;
+    margin-right:150px;
+    /* margin-left:20px; */
+    font-size:40px;
+    padding-right: 0px;;
+    padding-left:110px;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+button{
+    height:60px;
+    width:160px;
+    margin-left:22.5%;
+    margin-top:15px;
+    font-size:35px;
+    border-radius:15%;
+    background-color:rgb(248, 156, 7);
+    /* border:10px solid black; */
+    font-family:'Times New Roman', Times, serif;
+    font-weight:600;
+}
+
+input[type="text"],input[type="tel"],input[type="email"],textarea{
+    font-size:30px;
+    font-family:'Times New Roman', Times, serif;
+    margin:5px;
+    padding:10px;
+    
+}
+
+button:hover{
+    background-color: rgb(128, 183, 196);
+    font-size:40px;
+    height:70px;
+    width:170px;
+
+    
+    /* color:red; */
+}
+
+
+#details{
+    /* float:left; */
+    margin-left:37%;
+    padding-bottom:5%;
+    font-size:30px;
+}
+
+#contactPara{
+    font-size:30px;
+    margin-top:60px;
+    line-height:28px;
+    margin-left:30px;
+    color:white;
+}
+
+.footer_logo{
+    height:70px;
+}
+
+#footer_github{
+    height:90px;
+    /* margin-bottom:10px; */
+    /* background-color: greenyellow; */
+}
+
+#footer_twitter{
+    height:80px;
+}
+
+#footer_github:hover{
+    height:130px;
+}
+#footer_twitter:hover{
+    height:120px;
+}
+
+
+#aboutdiv{
+    height:705px;
+    width:990px;
+    float:right;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    /* align-items:center; */
+    font-size:25px;
+    /* padding:10px; */
+    border: 5px solid white;
+    /* border-style:solid; */
+    border-radius: 10%;
+    margin-right:10px;
+
+}
+.aboutBlocks{
+    height:350px;
+    width:460px;
+    background-color: rgb(8, 2, 54);
+    /* padding:10px; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 33px;
+}
+
+
+#ab1{
+    border-right:5px solid rgb(33, 33, 107);
+    border-bottom:5px solid rgb(33, 33, 107);
+    /* padding-left:10px; */
+    padding-right:10px;
+    /* padding-left:10px; */
+    border-top-left-radius: 20%;
+}
+
+#ab2{
+    /* border-left:5px solid rgb(33, 33, 107); */
+    border-bottom:5px solid rgb(33, 33, 107);
+    padding-left:10px;
+    border-top-right-radius: 20%;
+}
+
+#ab3{
+    border-right:5px solid rgb(33, 33, 107);
+    /* border-top:5px solid rgb(33, 33, 107); */
+    padding-left:10px;
+    border-bottom-left-radius: 20%;
+}
+
+#ab4{
+    /* border-left:5px solid rgb(33, 33, 107); */
+    /* border-top:5px solid rgb(33, 33, 107); */
+    padding-left:10px;
+    border-bottom-right-radius: 20%;
+}
